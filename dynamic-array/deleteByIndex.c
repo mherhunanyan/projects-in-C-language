@@ -1,8 +1,9 @@
 #include "types.h"
+#include <stdio.h>
 
 void deleteByIndex(DynamicArray* dynamicArray, int index) {
     if (index < 0 || index >= dynamicArray->size) {
-        // invalid index
+        printf("Invalid index\n");
         return;
     }
 

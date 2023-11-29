@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "types.h"
 
 void resizeCapacity(DynamicArray *dynamicArray, int capacity) {
@@ -7,6 +8,6 @@ void resizeCapacity(DynamicArray *dynamicArray, int capacity) {
         dynamicArray->arr = temp;
         dynamicArray->capacity = capacity;
     } else {
-        // Handle realloc failure
+        printf("Realloc error\n");
     }
 }

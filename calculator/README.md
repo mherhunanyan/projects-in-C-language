@@ -24,7 +24,7 @@ gcc main.c calculateResult.c printOptions.c selectNumberSystem.c selectOperation
 
 - **Step 2**: User selects the number system (2, 10, 16) for output. After successful entry, proceed to **Step 3**.
 
-- **Step 3**: User chooses the operation (AND, OR, XOR, NOR, Left Shift, Right Shift, Replay, Exit). After a successful entry, proceed to **Step 4** for bitwise operations, return to **Step 1** for Replay, or go to **Step 8** to Exit.
+- **Step 3**: User selects the operation (AND, OR, XOR, NOR, Left Shift, Right Shift, Replay, Exit). After a successful entry, proceed to **Step 4** for bitwise operations, return to **Step 1** for Replay, or go to **Step 8** to Exit.
 
 - **Step 4**: User enter the first operand(value). After a successful entry, proceed to **Step 5**
 

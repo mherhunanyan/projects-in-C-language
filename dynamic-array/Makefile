@@ -2,7 +2,7 @@
 CC = gcc
 
 # Source files
-SRC = main.c createDynamicArray.c deleteByIndex.c deleteByValue.c freeDynamicArray.c getByIndex.c getCapacity.c getSize.c push.c resizeCapacity.c print.c
+SRC = main.c createDynamicArray.c deleteByIndex.c deleteByValue.c freeDynamicArray.c getByIndex.c push.c insert.c resizeCapacity.c print.c
 
 # Build target
 TARGET = dynamic_array

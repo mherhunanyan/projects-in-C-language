@@ -17,6 +17,22 @@ int main()
     print(dynamicArray);
   }
 
+  // insert
+  for (int i = 0; i < 2; ++i)
+  {
+    printf("Enter index for insert: ");
+    int index;
+    scanf("%d", &index);
+
+    printf("Enter value for insert: ");
+    int value;
+    scanf("%d", &value);
+
+    insert(dynamicArray, index, value);
+
+    print(dynamicArray);
+  }
+
   // getByIndex
   for (int i = 0; i < 3; ++i)
   {
@@ -40,7 +56,7 @@ int main()
   // deleteByValue
   for (int i = 0; i < 2; ++i)
   {
-    printf("Enter index for deleteByValue: ");
+    printf("Enter value for deleteByValue: ");
     int value;
     scanf("%d", &value);
     deleteByValue(dynamicArray, value, true);

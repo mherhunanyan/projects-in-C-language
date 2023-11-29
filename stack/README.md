@@ -17,6 +17,7 @@ gcc main.c createStack.c isEmpty.c isFull.c peek.c pop.c push.c resizeCapacity.c
 ```
 ./stack
 ```
+
 ## How to use?
 
 ### Stack struct
@@ -29,11 +30,11 @@ typedef struct {
 } Stack;
 ```
 
-### Create dynamic array
+### Create stack
 
 `Stack* createStack(int capacity)`
 ```c
-Stack *stack = createStack(2);
+Stack *stack = createStack(1000);
 ```
 
 ### top 

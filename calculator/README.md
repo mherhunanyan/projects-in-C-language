@@ -20,12 +20,16 @@ gcc main.c calculateResult.c printOptions.c selectNumberSystem.c selectOperation
 
 ## How it works?
 
-- Select Number System: User chooses the number system for the calculation.
+- **Step 1**: User selects the number system (2, 10, 16) for input. After successful entry, proceed to **Step 2**.
 
-- Select Operation: User selects a bitwise operation or control action.
+- **Step 2**: User selects the number system (2, 10, 16) for output. After successful entry, proceed to **Step 3**.
 
-- Enter Operands: User inputs the operands for the calculation.
+- **Step 3**: User chooses the operation (AND, OR, XOR, NOR, Left Shift, Right Shift, Replay, Exit). After a successful entry, proceed to **Step 4** for bitwise operations, return to **Step 1** for Replay, or go to **Step 8** to Exit.
 
-- Calculate and Display Result: The application calculates and displays the result.
+- **Step 4**: User enter the first operand(value). After a successful entry, proceed to **Step 5**
 
-- Repeat or Exit: The user can choose to perform another calculation or exit the application.
+- **Step 5**: User enter the second operand(value). After a successful entry, proceed to **Step 6**
+
+- **Step 7**: The application calculates and displays the result. Proceed to **Step 3**
+
+- **Step 8**: Exit application

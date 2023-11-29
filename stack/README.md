@@ -36,6 +36,28 @@ typedef struct {
 Stack *stack = createStack(2);
 ```
 
+### top 
+Stack top index
+
+```c
+stack->top
+```
+
+### capacity 
+Stack capacity
+
+```c
+stack->capacity
+```
+
+
+### size 
+Stack size (elemetns count)
+
+```c
+stack->size
+```
+
 
 ### Push 
 Add a value to the top of the stack.
